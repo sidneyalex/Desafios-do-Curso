@@ -1,2 +1,2 @@
-# Desafios do Curso
- Desafios do curso em video
+# Desafios do Curso em Video Phyton
+ Desafios do curdo de Phyton do curso em video 
