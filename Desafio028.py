@@ -3,8 +3,8 @@ from emoji import emojize
 from random import randrange
 ale = randrange(0,6)
 print('{}\nJogo de ADIVINHAÇÃO\n{}\n'.format('='*20, '='*20))
-num = int(input(print('Digite um numero inteiro de 0 a 5: ')))
+num = int(input('Digite um numero inteiro de 0 a 5: '))
 if num == ale:
-    print(emojize('Parabens você GANHOU :tada::sunglasses::thumbsup::tada:', use_aliases=True))
+    print(emojize('\n:tada: Parabens você GANHOU :tada:', use_aliases=True))
 else:
     print('O numero era {}, tente denovo.'.format(ale))
