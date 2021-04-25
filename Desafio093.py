@@ -13,6 +13,6 @@ for k, v in cad.items():
     print(f'O campo {k} tem valor {v}')
 print('-=' * 30)
 print(f'O jogador {cad["Nome"]} jogou {len(cad["Gols"])} partidas.')
-for i, g in enumerate:
-    print(f' => Partida {g+1} - {cad["Gols"][g]} gols.')
+for i, g in enumerate(cad['Gols']):
+    print(f' => Partida {i+1} - {g} gols.')
 print(f'Foi um total de {cad["Total"]} gols.')
